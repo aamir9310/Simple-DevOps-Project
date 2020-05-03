@@ -3,6 +3,9 @@
 ### Pre-requisites
 1. EC2 instance with Java v1.8.x 
 
+# yum remove java
+# yum install java-1.8.0*
+
 ### Install Apache Tomcat
 1. Download tomcat packages from  https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
    ```sh 
