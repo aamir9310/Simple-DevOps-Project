@@ -18,7 +18,7 @@ NOTE - Follow step3 and step4 on slave node as well
 1. Install ansible using pip check for version
     ```sh
     pip install ansible
-   ansible --version
+   ansible --version  # if ansible --version not found, deploy new EC2 and follow above url to install ansible remaining process will be same (https://medium.com/@khandelwal12nidhi/ansible-setup-on-aws-ec2-instance-d83fac41fcc8)
    ```
    
 1. Create a user called ansadmin (on Control node and Managed host)  
